@@ -1,622 +1,646 @@
 <!DOCTYPE html>
-    <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta description="Yacouba Doumbia's Portfolio">
-        <meta name="google-site-verification" content="OQNvXd0VcppnztOIiY3B6dOaODtyI9sUC2LZ4aFLv4U" />
+<html lang="fr">
 
-        <!--==================== UNICONS ====================-->
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-        
-        <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-        
-        <!--==================== CSS ====================-->
-        <link rel="stylesheet" href="assets/css/styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Développeur de formation. Après avoir obtenu une Licence en Informatique de Gestion à l'Institut Universitaire de Gestion. J'ai mis ma curiosité et mes compétences au service de la Technologie pour créer des applications web et mobiles."/>
+    <meta name="google-site-verification" content="OQNvXd0VcppnztOIiY3B6dOaODtyI9sUC2LZ4aFLv4U" />
 
-        <title>Yacouba Doumbia's Portfolio</title>
-    </head>
-    <body>
-        <!--==================== HEADER ====================-->
-        <header class="l-header" id="header">
-            <nav class="nav bd-container">
-                <a href="#" class="nav__logo">Yacouba Doumbia</a>
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list grid">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link active-link">
-                                Accueil
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#about" class="nav__link">
-                                A propos de moi
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#skill" class="nav__link">
-                                Compétences
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#services" class="nav__link">
-                                Réferences
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#portfolio" class="nav__link">
-                                Projets
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#contact" class="nav__link">
-                                Contactez moi
-                            </a>
-                        </li>
-                    </ul>
-                    <i class="uil uil-times nav__close" id="nav-close"></i>
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Yacouba Doumbia</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Yacouba Doumbia</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            Accueil
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            A propos de moi
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skill" class="nav__link">
+                            Compétences
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">
+                            Réferences
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            Projets
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            Contactez moi
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                <i class="uil uil-bars"></i> &nbsp;&nbsp;
+                <!-- Theme change button -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+                <div class="nav__toggle" id="nav-toggle">
                 </div>
+            </div>
+        </nav>
+    </header>
 
-                <div class="nav__btns">
-                  <i class="uil uil-bars"></i> &nbsp;&nbsp;
-                    <!-- Theme change button -->
-                    <i class="uil uil-moon change-theme" id="theme-button"></i>
-                    <div class="nav__toggle" id="nav-toggle">
-                    </div>
-                </div>
-            </nav>
-        </header>    
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Salut,<br>Je m'appelle <span class="home__title-color">Yacouba
+                        Doumbia</span><br> Developer Fullstack</h1>
 
-        <!--==================== MAIN ====================-->
-        <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home section" id="home">
-                <div class="home__data">
-                    <h1 class="home__title">Salut,<br>Je m'appelle <span class="home__title-color">Yacouba Doumbia</span><br> Developer Fullstack</h1>
-
-                    <a href="#contact" class="button">Contactez moi</a>
-                </div>
-                <div class="home__container container grid">
-                    <div class="home__content grid">
-                        <div class="home__social">
-                            <a href=" https://www.linkedin.com/yacouba-doumbia-854011196/" target="_blank" class="home_social-icon">
-                                <i class="uil uil-linkedin-alt"></i>
-                            </a>
-                            <a href="https://github.com/Yaspi01" target="_blank" class="home_social-icon">
-                                <i class="uil uil-github-alt"></i>
-                            </a>
-                            <a href="https://twitter.com/yacouba_doumb" target="_blank" class="home_social-icon">
-                                <i class="uil uil-twitter-alt"></i>
-                            </a>
-                        </div>
-
-                    </div>
-
-                    <div class="home__scroll">
-                        <a href="#about" class="home__sroll-button button--flex">
-                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-                            <span class="home__scroll-name">Voir plus</span>
-                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                <a href="#contact" class="button">Contactez moi</a>
+            </div>
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href=" https://www.linkedin.com/yacouba-doumbia-854011196/" target="_blank"
+                            class="home_social-icon">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                        <a href="https://github.com/Yaspi01" target="_blank" class="home_social-icon">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                        <a href="https://twitter.com/yacouba_doumb" target="_blank" class="home_social-icon">
+                            <i class="uil uil-twitter-alt"></i>
                         </a>
                     </div>
+
                 </div>
-            </section>
 
-            <!--==================== ABOUT ====================-->
-            <section class="about section" id="about">
-                <h2 class="section__title">A propos de moi</h2>
-                <span class="section__subtitle">Pourquoi me choisir ?</span>
-                <div class="about__container container grid">
-                    <img src="assets/img/me.png" alt="" class="about__img">
+                <div class="home__scroll">
+                    <a href="#about" class="home__sroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <span class="home__scroll-name">Voir plus</span>
+                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
 
-                    <div class="about__data">
-                        <p class="about__description">
-                            Développeur de formation. Après avoir obtenu une Licence en Informatique de Gestion à l'Institut Universitaire de Gestion. J’ai mis ma curiosité et mes compétences au service de la Technologie pour créer des applications web et mobiles. Rigoureux et passionné, j’aime travailler en équipe pour plus de créativité. Je viens tout juste d'obtenir mon certificat de SIMPLON sur le référentiel Développement WEB et MOBILE au sein de l’école du code à ORANGE DIGITAL KALANSO
-                        </p>
-                        <div class="about__info">
-                            <div>
-                                <span class="about__info-title">02+</span>
-                                <span class="about__info-name">années <br> d'experiences</span>
-                            </div>
-                            <div>
-                                <span class="about__info-title">08+</span>
-                                <span class="about__info-name">projets <br> réalisés</span>
-                            </div>
-                            <!-- <div>
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <h2 class="section__title">A propos de moi</h2>
+            <span class="section__subtitle">Pourquoi me choisir ?</span>
+            <div class="about__container container grid">
+                <img src="assets/img/me.png" alt="" class="about__img">
+
+                <div class="about__data">
+                    <p class="about__description">
+                        Développeur de formation. Après avoir obtenu une Licence en Informatique de Gestion à l'Institut
+                        Universitaire de Gestion. J’ai mis ma curiosité et mes compétences au service de la Technologie
+                        pour créer des applications web et mobiles. Rigoureux et passionné, j’aime travailler en équipe
+                        pour plus de créativité. Je viens tout juste d'obtenir mon certificat de SIMPLON sur le
+                        référentiel Développement WEB et MOBILE au sein de l’école du code à ORANGE DIGITAL KALANSO
+                    </p>
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-title">02+</span>
+                            <span class="about__info-name">années <br> d'experiences</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">08+</span>
+                            <span class="about__info-name">projets <br> réalisés</span>
+                        </div>
+                        <!-- <div>
                                 <span class="about__info-title">02+</span>
                                 <span class="about__info-name">Compagnies <br> worked</span>
                             </div> -->
-                        </div>
+                    </div>
 
-                        <div class="about__buttons">
-                            <a download="" href="assets/pdf/mon_cv.pdf" class="button button--flex">
-                                Téléchargez mon CV <i class="uil uil-download-alt button__icon"></i>
-                            </a>
-                        </div>
+                    <div class="about__buttons">
+                        <a download="" href="assets/pdf/mon_cv.pdf" class="button button--flex">
+                            Téléchargez mon CV <i class="uil uil-download-alt button__icon"></i>
+                        </a>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <!--==================== SKILLS ====================-->
-            <section class="skills section" id="skill">
-                <h2 class="section__title">Competences</h2>
-                
-                <div>
-                    <div class="skills__container container grid">
-                        <!--==================== SKILLS 1 ====================-->
-                        <div class="skills__content skills__open">
-                            <div class="skills__header">
-                                <i class="uil uil-brackets-curly skills__icon"></i>
-                                
-                                <div>
-                                    <h1 class="skills__titles">Frontend</h1>
-                                    <span class="skills__subtitle">Plus de 2 ans</span>
-                                </div>
-                                <i class="uil uil-angle-down skills__arrow"></i>
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skill">
+            <h2 class="section__title">Competences</h2>
+
+            <div>
+                <div class="skills__container container grid">
+                    <!--==================== SKILLS 1 ====================-->
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="uil uil-brackets-curly skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__titles">Frontend</h1>
+                                <span class="skills__subtitle">Plus de 2 ans</span>
                             </div>
-                            
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <!--==================== SKILLS detail ====================-->
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills_number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__html"></span>
+                                </div>
+                            </div>
+                            <!--==================== SKILLS detail ====================-->
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">IONIC</h3>
+                                    <span class="skills_number">65%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__ionic"></span>
+                                </div>
+                            </div>
+                            <!--==================== SKILLS detail ====================-->
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Flutter</h3>
+                                    <span class="skills_number">80%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__flutter"></span>
+                                </div>
+                            </div>
+                            <!--==================== SKILLS detail ====================-->
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Angular</h3>
+                                    <span class="skills_number">60%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__angular"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <!--==================== SKILLS 2 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-server-network skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__titles">Backend</h1>
+                                    <span class="skills__subtitle">Plus de 2 ans</span>
+                                    <i class="uil uil-angle-down skills__arrow"></i>
+                                </div>
+                            </div>
+
                             <div class="skills__list grid">
                                 <!--==================== SKILLS detail ====================-->
                                 <div class="skills__data">
                                     <div class="skills__titles">
-                                        <h3 class="skills__name">HTML</h3>
-                                        <span class="skills_number">90%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__html"></span>
-                                    </div>
-                                </div>
-                                <!--==================== SKILLS detail ====================-->
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">IONIC</h3>
-                                        <span class="skills_number">65%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__ionic"></span>
-                                    </div>
-                                </div>
-                                <!--==================== SKILLS detail ====================-->
-                                <div class="skills__data">
-                                    <div class="skills__titles">
-                                        <h3 class="skills__name">Flutter</h3>
+                                        <h3 class="skills__name">PHP</h3>
                                         <span class="skills_number">80%</span>
                                     </div>
                                     <div class="skills__bar">
-                                        <span class="skills__percentage skills__flutter"></span>
+                                        <span class="skills__percentage skills__php"></span>
                                     </div>
                                 </div>
                                 <!--==================== SKILLS detail ====================-->
                                 <div class="skills__data">
                                     <div class="skills__titles">
-                                        <h3 class="skills__name">Angular</h3>
+                                        <h3 class="skills__name">Spring boot</h3>
+                                        <span class="skills_number">90%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__spring"></span>
+                                    </div>
+                                </div>
+                                <!--==================== SKILLS detail ====================-->
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Laravel</h3>
+                                        <span class="skills_number">50%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__laravel"></span>
+                                    </div>
+                                </div>
+                                <!--==================== SKILLS detail ====================-->
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Symfony</h3>
                                         <span class="skills_number">60%</span>
                                     </div>
                                     <div class="skills__bar">
-                                        <span class="skills__percentage skills__angular"></span>
+                                        <span class="skills__percentage skills__symfony"></span>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div>
-                            <!--==================== SKILLS 2 ====================-->
-                            <div class="skills__content skills__close">
-                                <div class="skills__header">
-                                    <i class="uil uil-server-network skills__icon"></i>
-                                    
-                                    <div>
-                                        <h1 class="skills__titles">Backend</h1>
-                                        <span class="skills__subtitle">Plus de 2 ans</span>
-                                        <i class="uil uil-angle-down skills__arrow"></i>
-                                    </div>
-                                </div>
-                                
-                                <div class="skills__list grid">
-                                    <!--==================== SKILLS detail ====================-->
-                                    <div class="skills__data">
-                                        <div class="skills__titles">
-                                            <h3 class="skills__name">PHP</h3>
-                                            <span class="skills_number">80%</span>
-                                        </div>
-                                        <div class="skills__bar">
-                                            <span class="skills__percentage skills__php"></span>
-                                        </div>
-                                    </div>
-                                    <!--==================== SKILLS detail ====================-->
-                                    <div class="skills__data">
-                                        <div class="skills__titles">
-                                            <h3 class="skills__name">Spring boot</h3>
-                                            <span class="skills_number">90%</span>
-                                        </div>
-                                        <div class="skills__bar">
-                                            <span class="skills__percentage skills__spring"></span>
-                                        </div>
-                                    </div>
-                                    <!--==================== SKILLS detail ====================-->
-                                    <div class="skills__data">
-                                        <div class="skills__titles">
-                                            <h3 class="skills__name">Laravel</h3>
-                                            <span class="skills_number">50%</span>
-                                        </div>
-                                        <div class="skills__bar">
-                                            <span class="skills__percentage skills__laravel"></span>
-                                        </div>
-                                    </div>
-                                    <!--==================== SKILLS detail ====================-->
-                                    <div class="skills__data">
-                                        <div class="skills__titles">
-                                            <h3 class="skills__name">Symfony</h3>
-                                            <span class="skills_number">60%</span>
-                                        </div>
-                                        <div class="skills__bar">
-                                            <span class="skills__percentage skills__symfony"></span>
-                                        </div>
-                                    </div>
+                    </div>
+                    <div>
+                        <!--==================== SKILLS 3 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-swatchbook skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__titles">Autre</h1>
+                                    <span class="skills__subtitle">Plus de 2 ans</span>
+                                    <i class="uil uil-angle-down skills__arrow"></i>
                                 </div>
                             </div>
-                        </div>
-                        <div>
-                            <!--==================== SKILLS 3 ====================-->
-                            <div class="skills__content skills__close">
-                                <div class="skills__header">
-                                    <i class="uil uil-swatchbook skills__icon"></i>
-                                    
-                                    <div>
-                                        <h1 class="skills__titles">Autre</h1>
-                                        <span class="skills__subtitle">Plus de 2 ans</span>
-                                        <i class="uil uil-angle-down skills__arrow"></i>
+
+                            <div class="skills__list grid">
+                                <!--==================== SKILLS detail ====================-->
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Web Design</h3>
+                                        <span class="skills_number">60%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage web_design"></span>
                                     </div>
                                 </div>
-                                
-                                <div class="skills__list grid">
-                                    <!--==================== SKILLS detail ====================-->
-                                    <div class="skills__data">
-                                        <div class="skills__titles">
-                                            <h3 class="skills__name">Web Design</h3>
-                                            <span class="skills_number">60%</span>
-                                        </div>
-                                        <div class="skills__bar">
-                                            <span class="skills__percentage web_design"></span>
-                                        </div>
+                                <!--==================== SKILLS detail ====================-->
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Wordpress</h3>
+                                        <span class="skills_number">90%</span>
                                     </div>
-                                    <!--==================== SKILLS detail ====================-->
-                                    <div class="skills__data">
-                                        <div class="skills__titles">
-                                            <h3 class="skills__name">Wordpress</h3>
-                                            <span class="skills_number">90%</span>
-                                        </div>
-                                        <div class="skills__bar">
-                                            <span class="skills__percentage wordpress"></span>
-                                        </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage wordpress"></span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <!--==================== REFERENCES ====================-->
-            <section class="services section" id="services">
-                <h2 class="section__title">Réferences</h2>
-                <span class="section__subtitle">Personnes de réferences</span>
-                <div class="services__container container grid">
-                    <!--==================== SERVICES 1 ====================-->
-                    <div class="services__content">
-                        <div>
-                            <i class="uil uil-user-circle services__icon"></i>
-                            <h3 class="services__title">Mme DEMBELE <br> Fatoumata KALOGA</h3>
-                        </div>
-                        <span class="button button--flex button--small button--link services__button">
-                            Voir plus <i class="uil uil-eye button__icon"></i>
-                        </span>
-
-                        <div class="services__modal">
-                            <div class="services__modal-content">
-                                <h4 class="service__modal-title">Mme DEMBELE <br> Fatoumata KALOGA</h4>
-                                <i class="uil uil-times services__modal-close"></i>
-
-                                <ul class="services__modal-services grid">
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Formatrice Orange Digital Kalanso</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-envelope services__modal-icon"></i>
-                                        <p title="fatoumata.KALOGA@oranagemali.com">&nbsp; <a href="mailto:fatoumata.KALOGA@oranagemali.com" target="_blank"><i class="fab fa-linkedin"></i>Email</a></p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                      <i class="uil uil-linkedin services__modal-icon"></i>
-                                      <p title="https://www.linkedin.com/in/kaloga-fatoumata-36133860/">&nbsp;<a href="https://www.linkedin.com/in/kaloga-fatoumata-36133860/" target="_blank"><i class="fab fa-linkedin"></i>Linkedin</a></p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+        <!--==================== REFERENCES ====================-->
+        <section class="services section" id="services">
+            <h2 class="section__title">Réferences</h2>
+            <span class="section__subtitle">Personnes de réferences</span>
+            <div class="services__container container grid">
                 <!--==================== SERVICES 1 ====================-->
-                    <div class="services__content">
-                        <div>
-                            <i class="uil uil-user-circle services__icon"></i>
-                            <h3 class="services__title">M. Abdoul <br> Wahab DIABY</h3>
-                        </div>
-                        <span class="button button--flex button--small button--link services__button">
-                          Voir plus <i class="uil uil-eye button__icon"></i>
-                        </span>
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-user-circle services__icon"></i>
+                        <h3 class="services__title">Mme DEMBELE <br> Fatoumata KALOGA</h3>
+                    </div>
+                    <span class="button button--flex button--small button--link services__button">
+                        Voir plus <i class="uil uil-eye button__icon"></i>
+                    </span>
 
-                        <div class="services__modal">
-                            <div class="services__modal-content">
-                                <h4 class="service__modal-title">M. Abdoul <br> Wahab DIABY</h4>
-                                <i class="uil uil-times services__modal-close"></i>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="service__modal-title">Mme DEMBELE <br> Fatoumata KALOGA</h4>
+                            <i class="uil uil-times services__modal-close"></i>
 
-                                <ul class="services__modal-services grid">
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Responsable Digitalisation chez GIE AMI</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                      <i class="uil uil-envelope services__modal-icon"></i>
-                                        <p title="diaby@diaby.cf">&nbsp; <a href="mailto:diaby@diaby.cf" target="_blank"><i class="fab fa-linkedin"></i>Email</a></p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                      <i class="uil uil-linkedin services__modal-icon"></i>
-                                      <p title="https://www.linkedin.com/in/abdoul-wahab-diaby/">&nbsp;<a href="https://www.linkedin.com/in/abdoul-wahab-diaby/" target="_blank"><i class="fab fa-linkedin"></i>Linkedin</a></p>
-                                    </li>
-                                </ul>
-                            </div>
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Formatrice Orange Digital Kalanso</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-envelope services__modal-icon"></i>
+                                    <p title="fatoumata.KALOGA@oranagemali.com">&nbsp; <a
+                                            href="mailto:fatoumata.KALOGA@oranagemali.com" target="_blank"><i
+                                                class="fab fa-linkedin"></i>Email</a></p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-linkedin services__modal-icon"></i>
+                                    <p title="https://www.linkedin.com/in/kaloga-fatoumata-36133860/">&nbsp;<a
+                                            href="https://www.linkedin.com/in/kaloga-fatoumata-36133860/"
+                                            target="_blank"><i class="fab fa-linkedin"></i>Linkedin</a></p>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                <!--==================== SERVICES 3 ====================-->
-                    <div class="services__content">
-                        <div>
-                            <i class="uil uil-user-circle services__icon"></i>
-                            <h3 class="services__title">M. Amadoun Kaou <br>DIALLO</h3>
+                </div>
+                <!--==================== SERVICES 1 ====================-->
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-user-circle services__icon"></i>
+                        <h3 class="services__title">M. Abdoul <br> Wahab DIABY</h3>
+                    </div>
+                    <span class="button button--flex button--small button--link services__button">
+                        Voir plus <i class="uil uil-eye button__icon"></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="service__modal-title">M. Abdoul <br> Wahab DIABY</h4>
+                            <i class="uil uil-times services__modal-close"></i>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Responsable Digitalisation chez GIE AMI</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-envelope services__modal-icon"></i>
+                                    <p title="diaby@diaby.cf">&nbsp; <a href="mailto:diaby@diaby.cf" target="_blank"><i
+                                                class="fab fa-linkedin"></i>Email</a></p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-linkedin services__modal-icon"></i>
+                                    <p title="https://www.linkedin.com/in/abdoul-wahab-diaby/">&nbsp;<a
+                                            href="https://www.linkedin.com/in/abdoul-wahab-diaby/" target="_blank"><i
+                                                class="fab fa-linkedin"></i>Linkedin</a></p>
+                                </li>
+                            </ul>
                         </div>
-                        <span class="button button--flex button--small button--link services__button">
-                          Voir plus <i class="uil uil-eye button__icon"></i>
-                        </span>
+                    </div>
+                </div>
+                <!--==================== SERVICES 3 ====================-->
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-user-circle services__icon"></i>
+                        <h3 class="services__title">M. Amadoun Kaou <br>DIALLO</h3>
+                    </div>
+                    <span class="button button--flex button--small button--link services__button">
+                        Voir plus <i class="uil uil-eye button__icon"></i>
+                    </span>
 
-                        <div class="services__modal">
-                            <div class="services__modal-content">
-                                <h4 class="service__modal-title">M. Amadoun Kaou <br>DIALLO</h4>
-                                <i class="uil uil-times services__modal-close"></i>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="service__modal-title">M. Amadoun Kaou <br>DIALLO</h4>
+                            <i class="uil uil-times services__modal-close"></i>
 
-                                <ul class="services__modal-services grid">
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <p>Responsable à Orange Digital Kalanso</p>
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-envelope services__modal-icon"></i>
-                                        <p title="orangedigitalkalanso@orangemali.com">&nbsp; <a href="mailto:orangedigitalkalanso@orangemali.com" target="_blank"><i class="fab fa-linkedin"></i>Email</a></p>
-                                    </li>
-                                    <!-- <li class="services__modal-service">
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Responsable à Orange Digital Kalanso</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-envelope services__modal-icon"></i>
+                                    <p title="orangedigitalkalanso@orangemali.com">&nbsp; <a
+                                            href="mailto:orangedigitalkalanso@orangemali.com" target="_blank"><i
+                                                class="fab fa-linkedin"></i>Email</a></p>
+                                </li>
+                                <!-- <li class="services__modal-service">
                                         <i class="uil uil-linkedin services__modal-icon"></i>
                                         <p title="https://www.linkedin.com/in/kaloga-fatoumata-36133860/">Linkedin &nbsp;<a href="https://www.linkedin.com/in/kaloga-fatoumata-36133860/" target="_blank"><i class="fab fa-linkedin"></i></a></p>
                                     </li> -->
-                                </ul>
-                            </div>
+                            </ul>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <!--==================== PORTFOLIO ====================-->
-            <section class="portfolio section" id="portfolio">
-                <h2 class="section__title">Portfolio</h2>
-                <span class="section__subtitle">Mes derniers projets</span>
-                
-                <div class="portfolio__container container swiper-container">
-                    <div class="swiper-wrapper">
-                        <!--==================== PORTFOLIO 1 ====================-->
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/suiviApprenant.png" alt="" class="portfolion__img">
+        <!--==================== PORTFOLIO ====================-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Mes derniers projets</span>
 
-                            <div class="portfolio__data">
-                                <h3 class="portfolio__title">Suivi Assistance apprenant ODK</h3>
-                                <p class="portfolio__description">Est une plateforme d'aide et de mise en relation entre apprenants et formateur</p>
-                                <a href="#" class="button button--flex button--small portfolio__button">
-                                    Demo <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <!--==================== PORTFOLIO 2 ====================-->
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/portfolio-5.png" alt="" class="portfolion__img">
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--==================== PORTFOLIO 1 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/suiviApprenant.png" alt="" class="portfolion__img">
 
-                            <div class="portfolio__data">
-                                <h3 class="portfolio__title">ODK Pointage</h3>
-                                <p class="portfolio__description">Une application web qui permet de faire le pointage des apprenants de ODK </p>
-                                <a href="#" class="button button--flex button--small portfolio__button">
-                                    Demo <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <!--==================== PORTFOLIO 3 ====================-->
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/portfolio-2.png" alt="" class="portfolion__img">
-
-                            <div class="portfolio__data">
-                                <h3 class="portfolio__title">Vision santé plus</h3>
-                                <p class="portfolio__description">Est une application web qui permet de la gestion du cabinet medical Vision santé plus</p>
-                                <a href="#" class="button button--flex button--small portfolio__button">
-                                    Demo <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <!--==================== PORTFOLIO 4 ====================-->
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/portfolio-4.png" alt="" class="portfolion__img">
-
-                            <div class="portfolio__data">
-                                <h3 class="portfolio__title">Siraba chariaw</h3>
-                                <p class="portfolio__description">Application mobile qui permet d'informer les usagers sur la signification des différents panneaux de circulation</p>
-                                <a href="#" class="button button--flex button--small portfolio__button">
-                                    Demo <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <!--==================== PORTFOLIO 4 ====================-->
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/mali-tourism.png" alt="" class="portfolion__img">
-
-                            <div class="portfolio__data">
-                                <h3 class="portfolio__title">Mali Tourisme</h3>
-                                <p class="portfolio__description">Site qui repertorie l'ensemble des sites touristiques du Mali les hôtels et les lieux de divertissements</p>
-                                <a href="#" class="button button--flex button--small portfolio__button">
-                                    Demo <i class="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-button-next">
-                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-                    </div>
-                    <div class="swiper-button-prev">
-                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-                    </div>
-
-                    <div class="swiper-pagination"></div>
-                </div>
-            </section>
-
-            <!--==================== PROJECT IN MIND ====================-->
-            <section class="project section">
-                <div class="project__bg">
-                    <div class="project__container container grid">
-                        <div class="project__data">
-                            <h2 class="project__title">Vous avez un nouveau projet ?</h2>
-                            <p class="project__description">Contactez moi maintenant.</p>
-                            <a href="#contact" class="button button--flex button--white">
-                                Contactez moi 
-                                <i class="uil uil-message project__icon button__icon"></i>
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Suivi Assistance apprenant ODK</h3>
+                            <p class="portfolio__description">Est une plateforme d'aide et de mise en relation entre
+                                apprenants et formateur</p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Demo <i class="uil uil-arrow-right button__icon"></i>
                             </a>
                         </div>
+                    </div>
+                    <!--==================== PORTFOLIO 2 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio-5.png" alt="" class="portfolion__img">
 
-                        <img src="assets/img/about_hero.png" alt="" class="project__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">ODK Pointage</h3>
+                            <p class="portfolio__description">Une application web qui permet de faire le pointage des
+                                apprenants de ODK </p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Demo <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== PORTFOLIO 3 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio-2.png" alt="" class="portfolion__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Vision santé plus</h3>
+                            <p class="portfolio__description">Est une application web qui permet de la gestion du
+                                cabinet medical Vision santé plus</p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Demo <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== PORTFOLIO 4 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio-4.png" alt="" class="portfolion__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Siraba chariaw</h3>
+                            <p class="portfolio__description">Application mobile qui permet d'informer les usagers sur
+                                la signification des différents panneaux de circulation</p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Demo <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== PORTFOLIO 4 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/mali-tourism.png" alt="" class="portfolion__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Mali Tourisme</h3>
+                            <p class="portfolio__description">Site qui repertorie l'ensemble des sites touristiques du
+                                Mali les hôtels et les lieux de divertissements</p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Demo <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </section>
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
 
-            <!--==================== CONTACT ME ====================-->
-            <section class="contact section" id="contact">
-                <h2 class="section__title">Contactez moi</h2>
-                <span class="section__subtitle">Entrez en contact avec moi</span>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
 
-                <div class="contact__container container grid">
-                    <div>
-                        <div class="contact__information">
-                            <i class="uil uil-phone contact__icon"></i>
-
-                            <div>
-                                <h3 class="contact__title">Téléphone</h3>
-                                <span class="contact__subtitle">00223 75-90-00-85</span>
-                            </div>
-                        </div>
-                        <div class="contact__information">
-                            <i class="uil uil-envelope  contact__icon"></i>
-
-                            <div>
-                                <h3 class="contact__title">Email</h3>
-                                <span class="contact__subtitle">yacoubaadoumbia@gmail.com</span>
-                            </div>
-                        </div>
-                        <div class="contact__information">
-                            <i class="uil uil-map-marker contact__icon"></i>
-
-                            <div>
-                                <h3 class="contact__title">Adresse</h3>
-                                <span class="contact__subtitle">Mali - Bamako Yirimadjo ZRNY</span>
-                            </div>
-                        </div>
+        <!--==================== PROJECT IN MIND ====================-->
+        <section class="project section">
+            <div class="project__bg">
+                <div class="project__container container grid">
+                    <div class="project__data">
+                        <h2 class="project__title">Vous avez un nouveau projet ?</h2>
+                        <p class="project__description">Contactez moi maintenant.</p>
+                        <a href="#contact" class="button button--flex button--white">
+                            Contactez moi
+                            <i class="uil uil-message project__icon button__icon"></i>
+                        </a>
                     </div>
 
-                    <form action="" class="contact__form grid">
-                        <div class="contact__inputs grid">
-                            <div class="contact__content">
-                                <label for="" class="contact__label">Nom</label>
-                                <input type="text" id="nom" class="contact__input">
-                            </div>
-                            <div class="contact__content">
-                                <label for="" class="contact__label">Email</label>
-                                <input type="email" id="email" class="contact__input">
-                            </div>
-                        </div>
-                        <div class="contact__content">
-                            <label for="" class="contact__label">Objet</label>
-                            <input type="text" id="objet" class="contact__input">
-                        </div>
-                        <div class="contact__content">
-                            <label for="" class="contact__label">Message</label>
-                            <textarea name="" id="message" cols="0" rows="7" class="contact__input"></textarea>
-                        </div>
+                    <img src="assets/img/about_hero.png" alt="" class="project__img">
+                </div>
+            </div>
+        </section>
+
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contactez moi</h2>
+            <span class="section__subtitle">Entrez en contact avec moi</span>
+
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-phone contact__icon"></i>
 
                         <div>
-                            <a type="submit" id="btn" href="#" class="button button--flex">
-                                Envoyer Message<i class="uil uil-message button__icon"></i>
-                            </a>
+                            <h3 class="contact__title">Téléphone</h3>
+                            <span class="contact__subtitle">00223 75-90-00-85</span>
                         </div>
-                    </form>
-                </div>
-            </section>
-        </main>
+                    </div>
+                    <div class="contact__information">
+                        <i class="uil uil-envelope  contact__icon"></i>
 
-        <!--==================== FOOTER ====================-->
-        <footer class="footer">
-            <div class="footer__bg">
-                <div class="footer__container container grid">
+                        <div>
+                            <h3 class="contact__title">Email</h3>
+                            <span class="contact__subtitle">yacoubaadoumbia@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="contact__information">
+                        <i class="uil uil-map-marker contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Adresse</h3>
+                            <span class="contact__subtitle">Mali - Bamako Yirimadjo ZRNY</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="" class="contact__form grid">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Nom</label>
+                            <input type="text" id="nom" class="contact__input">
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Email</label>
+                            <input type="email" id="email" class="contact__input">
+                        </div>
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Objet</label>
+                        <input type="text" id="objet" class="contact__input">
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Message</label>
+                        <textarea name="" id="message" cols="0" rows="7" class="contact__input"></textarea>
+                    </div>
+
                     <div>
-                        <h1 class="footer__title">Yacouba Doumbia</h1>
-                        <span class="footer__subtitle">Developpeur Web et Mobile</span>
-                    </div>
-
-                    <ul class="footer__links">
-                        <li>
-                            <a href="#services" class="footer__link">Réferences</a>
-                        </li>
-                        <li>
-                            <a href="#portfolio" class="footer__link">Projets</a>
-                        </li>
-                        <li>
-                            <a href="#about" class="footer__link">Apropos</a>
-                        </li>
-                    </ul>
-
-                    <div class="footer__socials">
-                        <a href="https://www.facebook.com/yacouba.doumbia.14" target="_blank" class="footer__social">
-                            <i class="uil uil-facebook-f"></i>
-                        </a>
-                        <a href="https://github.com/Yaspi01?tab=repositories" target="_blank" class="footer__social">
-                            <i class="uil uil-instagram"></i>
-                        </a>
-                        <a href="https://twitter.com/yacouba_doumb" target="_blank" class="footer__social">
-                            <i class="uil uil-twitter-alt"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/in/yacouba-doumbia-854011196/" target="_blank" class="footer__social">
-                          <i class="uil uil-linkedin"></i>
+                        <a type="submit" id="btn" href="#" class="button button--flex">
+                            Envoyer Message<i class="uil uil-message button__icon"></i>
                         </a>
                     </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Yacouba Doumbia</h1>
+                    <span class="footer__subtitle">Developpeur Web et Mobile</span>
                 </div>
 
-                <p class="footer__copy">&#169; Tout droit reserver</p>
+                <ul class="footer__links">
+                    <li>
+                        <a href="#services" class="footer__link">Réferences</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer__link">Projets</a>
+                    </li>
+                    <li>
+                        <a href="#about" class="footer__link">Apropos</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="https://www.facebook.com/yacouba.doumbia.14" target="_blank" class="footer__social">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+                    <a href="https://github.com/Yaspi01?tab=repositories" target="_blank" class="footer__social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                    <a href="https://twitter.com/yacouba_doumb" target="_blank" class="footer__social">
+                        <i class="uil uil-twitter-alt"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/yacouba-doumbia-854011196/" target="_blank"
+                        class="footer__social">
+                        <i class="uil uil-linkedin"></i>
+                    </a>
+                </div>
             </div>
-        </footer>
-        
-        <!--==================== SCROLL TOP ====================-->
-        <a href="#" class="scrollup" id="scroll-up">
-            <i class="uil uil-arrow-up scrollup__icon"></i>
-        </a>
 
-        <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
-        <!--==================== SWIPER JS ====================-->
-        <script src="assets/js/swiper-bundle.min.js"></script>
-        <!--==================== SEND MESSAGE JS ====================-->
-        <script src="https://smtpjs.com/v3/smtp.js"></script>
-        <script src="assets/js/message.js"></script>
+            <p class="footer__copy">&#169; Tout droit reserver</p>
+        </div>
+    </footer>
 
-        <!--==================== MAIN JS ====================-->
-        <script src="assets/js/main.js"></script>
-    </body>
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!--==================== SEND MESSAGE JS ====================-->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="assets/js/message.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+</body>
+
 </html>
